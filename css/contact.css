@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    border: 2px solid black;
+}
+th{
+   padding: 30px;
+   border: 1px solid black;
+}
+
+.back a{
+text-decoration: none;
+margin-left: 25px;
+color: black;
+font-size: larger;
+}

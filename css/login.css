@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+.back a{
+    text-decoration: none;
+margin-left: 25px;
+color: white;
+font-size: larger;
+}
+h1{
+    text-align: center;
+    height: 35px;
+   color: white;
+}
+
+table{
+    margin-top: 100px;
+    margin-left: 500px;
+    border: 2px solid white;
+    padding: 15px;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: rgba(173, 216, 230, 0.397);
+    color: white;
+}
+
+td, tr{
+    padding: 5px;
+}
+
+
+.btn{
+    margin-left: 360px;
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+}

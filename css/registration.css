@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 { 
+    text-align: center;
+    height: 35px;
+   color: white;
+   
+    
+}
+
+.section-one a{
+text-decoration: none;
+margin-left: 25px;
+color: white;
+font-size: larger;
+}
+
+.section-two{
+    padding: 15px;
+    margin: 10px;
+    width: 470px;
+    background-color: rgba(145, 131, 131, 0.432); 
+    color: aliceblue;
+    margin-left: 400px; 
+    font-size: larger;
+   
+}
+tr, td{
+    padding: 5px;
+}
+
+
+.btn{
+   margin-top: 10px;
+    margin-left: 180px;
+    border-radius: 10px;
+   
+    width: 100px;
+    height: 30px;
+}
+
+
+
