@@ -3,8 +3,11 @@
     padding:0px;
 }
 body{
-    background-color: rgb(221, 217, 226);
-    font-family: sans-serif;
+   
+    font-family: 'PT Sans', sans-serif;
+    /* background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
    
 }
 .header-image-div{
@@ -31,14 +34,14 @@ body{
     display: block;
 }
 .menu li{
-   
+ 
     list-style: none;
-    width: 212px;
+    width: 208px;
     height: 40px;
     background-color: rgb(30, 17, 73);  
-     float: left;
-    margin-left: 1px;  
-     line-height: 40px;
+    float: left;
+    margin: 1px;  
+    line-height: 40px;
     
  }
 
@@ -49,8 +52,7 @@ body{
 }
 
 .menu{
-
- width: 100%;
+/* width: 100%; */
 height: 40px;
 background-color: rgb(221, 217, 226);
 
@@ -66,3 +68,59 @@ background-color: rgb(221, 217, 226);
     transition: .3s linear; */
 } 
 
+.content{
+    display:flex;
+}
+
+.skills{
+    /* border: 5px solid red; */
+   height: 820px;
+   width: 800px;
+    margin-right: 100px;
+}
+
+.skills h3{
+    text-align: center;
+    padding-top: 5px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+
+table img{
+    width: 200px;
+    height: 150px;
+}
+
+td{
+    /* padding: 2px; */
+    background-color: aliceblue;
+}
+h3{
+    text-align: center;
+}
+.steps{
+display: flex;
+margin-top:25px;
+}
+
+.step1{
+width: 410px;
+height: 300px;
+border: 2px solid red;
+margin: 5px;
+}
+.step2{
+    width: 410px;
+    height: 300px;
+    border: 2px solid red;
+    margin: 5px;
+}
+.step3{
+    width: 410px;
+    height: 300px;
+    border: 2px solid red;
+    margin: 5px;
+}
