@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
 }
 body{
+    font-family: 'PT Sans', sans-serif;
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,7 +28,7 @@ font-size: larger;
 
 .section-two{
     padding: 15px;
-    margin: 10px;
+    margin: 5px;
     width: 470px;
     background-color: rgba(145, 131, 131, 0.432); 
     color: aliceblue;
@@ -47,5 +50,11 @@ tr, td{
     height: 30px;
 }
 
-
-
+.already{
+    color: white;
+    text-align: center;
+}
+.login a{
+    text-decoration: none;
+    color: green;
+}

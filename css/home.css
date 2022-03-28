@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 *{
     margin: 0px;
     padding:0px;
@@ -5,6 +7,7 @@
 body{
    
     font-family: 'PT Sans', sans-serif;
+    background-color: #F3F1FF;
     /* background-image: url("../images/background.png");
     background-repeat: no-repeat;
     background-size: cover; */
@@ -71,19 +74,53 @@ background-color: rgb(221, 217, 226);
 .content{
     display:flex;
 }
-
-.skills{
-    /* border: 5px solid red; */
-   height: 820px;
-   width: 800px;
-    margin-right: 100px;
+.container{
+    width:700px;
+    padding: 20px;
 }
 
-.skills h3{
+.skill-title{
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(30, 17, 73);
+    padding-bottom: 20px;
+}
+/* .skills{
+    /* border: 5px solid red; */
+   /* height: 820px;
+   width: 800px;
+    margin-right: 100px; */
+/* } */ */
+
+/* .skills h3{
     text-align: center;
     padding-top: 5px;
+} */
+.skills{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  
+   
 }
 
+.skill{
+    display: flex;
+    align-items: center;
+ 
+}
+.skill img{
+    width: 150px;
+    height: 150px;
+    padding-bottom: 10px;
+}
+
+.skill-name{
+    margin-left: 15px;
+}
+
+hr{
+    border: 1px solid rgb(30, 17, 73);
+}
 footer{
     text-align: center;
     margin-top: 50px;
@@ -98,9 +135,9 @@ td{
     /* padding: 2px; */
     background-color: aliceblue;
 }
-h3{
+/* h3{
     text-align: center;
-}
+} */
 .steps{
 display: flex;
 margin-top:25px;
@@ -109,18 +146,31 @@ margin-top:25px;
 .step1{
 width: 410px;
 height: 300px;
-border: 2px solid red;
+border: 2px solid rgb(30, 17, 73);
 margin: 5px;
 }
 .step2{
     width: 410px;
     height: 300px;
-    border: 2px solid red;
+    border: 2px solid rgb(30, 17, 73);
     margin: 5px;
 }
 .step3{
     width: 410px;
     height: 300px;
-    border: 2px solid red;
+    border: 2px solid rgb(30, 17, 73);
     margin: 5px;
+}
+
+.internship{
+    margin-top: 25px;
+    
+   text-align: center;
+   padding-left: 200px;
+   padding-right: 200px;
+   
+}
+
+.internship h1{
+    color: rgb(30, 17, 73);
 }
