@@ -1,176 +1,237 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
-*{
+* {
     margin: 0px;
-    padding:0px;
+    padding: 0px;
 }
-body{
-   
+
+body {
+
     font-family: 'PT Sans', sans-serif;
     background-color: #F3F1FF;
     /* background-image: url("../images/background.png");
     background-repeat: no-repeat;
     background-size: cover; */
-   
+
 }
-.header-image-div{
+
+.header-image-div {
     width: 100%;
     margin: 0px;
     padding: 0px;
 }
-.header-image-div img{
+
+.header-image-div img {
     width: 100%;
     height: 200px;
     margin: 0px;
     padding: 0px;
 }
 
-.menu{
+.menu {
     margin-bottom: 1px;
-   
+
 }
-.menu li a{
+
+.menu li a {
     font-size: large;
     color: white;
     text-decoration: none;
     text-align: center;
     display: block;
 }
-.menu li{
- 
+
+.menu li {
+
     list-style: none;
     width: 208px;
     height: 40px;
-    background-color: rgb(30, 17, 73);  
+    background-color: rgb(30, 17, 73);
     float: left;
-    margin: 1px;  
+    margin: 1px;
     line-height: 40px;
-    
- }
 
- .dropdown{
+}
+
+.dropdown {
     color: white;
     position: relative;
-  
-}
-
-.menu{
-/* width: 100%; */
-height: 40px;
-background-color: rgb(221, 217, 226);
 
 }
-.menu ul{
+
+.menu {
+    /* width: 100%; */
+    height: 40px;
+    background-color: rgb(221, 217, 226);
+
+
+}
+
+.menu ul {
     display: none;
 }
-.menu li:hover ul{
-    display: block;
-    /* top: 70px; */
-    /* opacity: 1;
-    visibility: visible;
-    transition: .3s linear; */
-} 
 
-.content{
-    display:flex;
+.menu li:hover ul {
+    display: block;
+    opacity: 1;
 }
-.container{
-    width:700px;
+
+.content {
+    display: flex;
+}
+
+.container {
+    width: 700px;
     padding: 20px;
 }
 
-.skill-title{
+.skill-title {
     font-weight: 500;
     font-size: 24px;
     color: rgb(30, 17, 73);
     padding-bottom: 20px;
 }
+
 /* .skills{
     /* border: 5px solid red; */
-   /* height: 820px;
+/* height: 820px;
    width: 800px;
     margin-right: 100px; */
-/* } */ */
+/* } */
+*/
 
 /* .skills h3{
     text-align: center;
     padding-top: 5px;
 } */
-.skills{
+.skills {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-  
-   
+
+
 }
 
-.skill{
+.skill {
     display: flex;
     align-items: center;
- 
+
 }
-.skill img{
+
+.skill img {
     width: 150px;
     height: 150px;
     padding-bottom: 10px;
 }
 
-.skill-name{
+.skill-name {
     margin-left: 15px;
 }
 
-hr{
+.calender img {
+    width: 500px;
+    margin: 10px;
+}
+
+hr {
     border: 1px solid rgb(30, 17, 73);
 }
-footer{
+
+footer {
     text-align: center;
     margin-top: 50px;
 }
 
-table img{
+table img {
     width: 200px;
     height: 150px;
 }
 
-td{
+td {
     /* padding: 2px; */
     background-color: aliceblue;
 }
+
 /* h3{
     text-align: center;
 } */
-.steps{
-display: flex;
-margin-top:25px;
-}
-
-.step1{
-width: 410px;
-height: 300px;
-border: 2px solid rgb(30, 17, 73);
-margin: 5px;
-}
-.step2{
-    width: 410px;
-    height: 300px;
-    border: 2px solid rgb(30, 17, 73);
-    margin: 5px;
-}
-.step3{
-    width: 410px;
-    height: 300px;
-    border: 2px solid rgb(30, 17, 73);
-    margin: 5px;
-}
-
-.internship{
+.steps {
+    display: flex;
     margin-top: 25px;
-    
-   text-align: center;
-   padding-left: 200px;
-   padding-right: 200px;
-   
 }
 
-.internship h1{
+.step1 {
+    width: 410px;
+    height: 300px;
+    border: 2px solid rgb(30, 17, 73);
+    margin: 5px;
+}
+
+.step2 {
+    width: 410px;
+    height: 300px;
+    border: 2px solid rgb(30, 17, 73);
+    margin: 5px;
+}
+
+.step3 {
+    width: 410px;
+    height: 300px;
+    border: 2px solid rgb(30, 17, 73);
+    margin: 5px;
+}
+
+.internship {
+    margin-top: 25px;
+
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.internship h1 {
     color: rgb(30, 17, 73);
+}
+
+
+/* courses style */
+.second-section {
+    background-color: rgba(54, 16, 84, 0.128);
+
+
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(30, 17, 73);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+.courses {
+    margin-left: 120px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    padding-bottom: 10px;
+}
+
+.course-info {}
+
+.course img {
+    width: 224px;
+    height: 104px;
+}
+
+.filled {
+    color: #FFC014;
+}
+
+
+.course-duration {
+    color: rgb(20, 212, 13);
 }
