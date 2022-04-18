@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css stylesheet -->
     <link rel="stylesheet" href="../css/registration.css">
+    <!-- javascript -->
+
+    <script src="../js/reg.js"></script>
     <title>Registration</title>
     <script src="https://kit.fontawesome.com/13058ac52f.js" crossorigin="anonymous"></script>
 </head>
@@ -19,32 +23,44 @@
 
     <!-- form -->
     <div class="section-two">
-
-        <form action="#">
+        <form action="#" onsubmit="formValidation()" method="GET">
             <table class="form-table">
                 <tr>
-                    <td>First Name</td>
-                    <td><input type="text" name="Name" id="" placeholder="Your name"></td>
+                    <td><label for="ifname">First Name</label></td>
+                    <td><input type="text" name="Name" id="ifname" placeholder="Your name">
+                        <small id="error-f"></small>
+                    </td>
+
                 </tr>
                 <tr>
                     <td> Last Name</td>
-                    <td><input type="text" name="Name" id="" placeholder="Your name"></td>
+                    <td><input type="text" name="Name" id="ilname" placeholder="Your name">
+                        <small id="error-l"></small>
+                    </td>
                 </tr>
                 <tr>
                     <td> Email</td>
-                    <td><input type="email" name="Name" id="" placeholder="Email"></td>
+                    <td><input type="email" name="Name" id="iemail" placeholder="Email">
+                        <small id="error-e"></small>
+                    </td>
                 </tr>
                 <tr>
                     <td> Mobile</td>
-                    <td><input type="Phone" name="Name" id="" placeholder="Mobile"></td>
+                    <td><input type="Phone" name="Name" id="imob" placeholder="Mobile">
+                        <small id="error-m"></small>
+                    </td>
                 </tr>
                 <tr>
                     <td> Password</td>
-                    <td><input type="password" name="Name" id="" placeholder="Password"></td>
+                    <td><input type="password" name="Name" id="ipass" placeholder="Password">
+                        <small id="error-p"></small>
+                    </td>
                 </tr>
                 <tr>
                     <td>Confirm Password</td>
-                    <td><input type="password" name="Name" id="" placeholder="Password"></td>
+                    <td><input type="password" name="Name" id="icpass" placeholder="Password">
+                        <small id="error-cp"></small>
+                    </td>
                 </tr>
                 <tr>
                     <td>Certificate</td>
@@ -102,7 +118,7 @@
 
             </table>
             <div class="btn">
-                <button type="button" class="btn">Register</button>
+                <input type="submit" name="submit-button" id="sub-btn" value="REGISTER">
             </div>
         </form>
 

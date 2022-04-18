@@ -14,61 +14,66 @@ function formValidation() {
 
     //First Name
     if (!fname.match(namePattern)) {
-        document.getElementById("efname").innerHTML = "Enter Valid Name";
+        document.getElementById("error-f").innerHTML = "Enter Valid Name";
         return false;
+
     }
     else if (fname.length < 3 || fname.length > 20) {
-        document.getElementById("efname").innerHTML = "Length 3-20";
+        document.getElementById("error-f").innerHTML = "Length 3-20";
+
     }
     else {
-        document.getElementById("efname").innerHTML = "";
+        document.getElementById("error-f").innerHTML = "";
     }
 
-    //Last Name
+    // //Last Name
     if (!lname.match(namePattern)) {
-        document.getElementById("elname").innerHTML = "Enter Valid Name";
+        document.getElementById("error-l").innerHTML = "Enter Valid Name";
         return false;
+
     }
     else if (lname.length < 3 || lname.length > 20) {
-        document.getElementById("elname").innerHTML = "Length 3-20";
+        document.getElementById("error-l").innerHTML = "Length 3-20";
+        alert("Length 3-20");
     }
     else {
-        document.getElementById("elname").innerHTML = "";
+        document.getElementById("error-l").innerHTML = "";
     }
 
-    //mobile
+    // //mobile
     if (!mobile.match(mobilePattern)) {
-        document.getElementById("emobile").innerHTML = "**Only BD phone number is allowed!!";
+        document.getElementById("error-m").innerHTML = "**Only BD phone number is allowed!!";
         return false;
+
     }
     else {
-        document.getElementById("emobile").innerHTML = "";
+        document.getElementById("error-m").innerHTML = "";
     }
 
-    //password
+    // //password
     if (!pass.match(passPattern)) {
-        document.getElementById("epass").innerHTML = "Password not strong enough";
+        document.getElementById("error-p").innerHTML = "Password not strong enough";
         return false;
     }
     else {
-        document.getElementById("epass").innerHTML = "";
+        document.getElementById("error-p").innerHTML = "";
     }
 
     //confirmpassword
     if (!cpass.match(pass)) {
-        document.getElementById("ecpass").innerHTML = "Password Not Matched";
+        document.getElementById("error-cp").innerHTML = "Password Not Matched";
         return false;
     }
     else {
-        document.getElementById("ecpass").innerHTML = "";
+        document.getElementById("error-cp").innerHTML = "";
     }
 
-    //Email
+    // //Email
     if (!email.match(emailPattern)) {
-        document.getElementById("eemail").innerHTML = "LU email required";
+        document.getElementById("error-e").innerHTML = "LU email required";
         return false;
     }
     else {
-        document.getElementById("eemail").innerHTML = "";
+        document.getElementById("error-e").innerHTML = "";
     }
 }
