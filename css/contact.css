@@ -1,19 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-table{
-    border: 2px solid black;
-}
-th{
-   padding: 30px;
-   border: 1px solid black;
+.back {
+    margin: 15px;
 }
 
-.back a{
-text-decoration: none;
-margin-left: 25px;
-color: black;
-font-size: larger;
+.back a {
+
+    text-decoration: none;
+    margin-left: 25px;
+    color: white;
+    font-size: larger;
 }

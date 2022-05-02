@@ -30,6 +30,7 @@ body {
     margin-top: 20px;
 }
 
+
 .videos i {
     color: red;
 }
@@ -56,6 +57,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 50px;
+    padding-left: 150px;
     border: 2px solid rgb(30, 17, 73);
     font-size: larger;
     color: white;
@@ -63,7 +65,7 @@ body {
 }
 
 .quiz {
-    margin: 10px;
+    margin: 5px;
     padding: 10px;
 }
 
@@ -71,12 +73,11 @@ body {
     width: 200px;
     height: 100px;
     background-color: rgb(30, 17, 73);
-    ;
     font-weight: 900;
     font-size: larger;
     border-radius: 50px;
     box-shadow: 35px 35px rgba(54, 16, 84, 0.128);
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 50px;
 }
 

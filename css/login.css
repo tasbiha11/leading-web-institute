@@ -1,31 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'PT Sans', sans-serif;
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: aliceblue;
 }
-.back a{
+
+.back a {
     text-decoration: none;
-margin-left: 25px;
-color: white;
-font-size: larger;
-}
-h1{
-    text-align: center;
-    height: 35px;
-   color: white;
+    margin-left: 25px;
+    color: white;
+    font-size: larger;
 }
 
-table{
+h1 {
+    text-align: center;
+    height: 35px;
+    color: white;
+}
+
+table {
     margin-top: 100px;
     margin-left: 500px;
     border: 2px solid white;
@@ -36,12 +38,13 @@ table{
     color: white;
 }
 
-td, tr{
+td,
+tr {
     padding: 5px;
 }
 
 
-.btn{
+.btn {
     margin-left: 360px;
     margin-top: 10px;
     width: 80px;
@@ -50,12 +53,13 @@ td, tr{
 }
 
 
-.register{
+.register {
     text-align: center;
     color: white;
     margin-top: 150px;
 }
-.register a{
+
+.register a {
     text-decoration: none;
     color: green;
 }

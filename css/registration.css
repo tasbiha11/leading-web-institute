@@ -1,60 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     font-family: 'PT Sans', sans-serif;
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-h1 { 
+h1 {
     text-align: center;
     height: 35px;
-   color: white;
-   
-    
+    color: white;
+
+
 }
 
-.section-one a{
-text-decoration: none;
-margin-left: 25px;
-color: white;
-font-size: larger;
+.section-one a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: white;
+    font-size: larger;
 }
 
-.section-two{
+.section-two {
     padding: 15px;
     margin: 5px;
     width: 470px;
-    background-color: rgba(145, 131, 131, 0.432); 
+    background-color: rgba(145, 131, 131, 0.432);
     color: aliceblue;
-    margin-left: 400px; 
+    margin-left: 400px;
     font-size: larger;
-   
+
 }
-tr, td{
+
+tr,
+td {
     padding: 5px;
 }
 
 
-.btn{
-   margin-top: 10px;
-    margin-left: 180px;
-    border-radius: 10px;
-   
-    width: 100px;
+.btn {
+    margin-left: 360px;
+    margin-top: 10px;
+    width: 80px;
     height: 30px;
 }
 
-.already{
+.btn input {
+    width: 100px;
+    height: 30px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+.already {
     color: white;
     text-align: center;
 }
-.login a{
+
+.login a {
     text-decoration: none;
     color: green;
 }

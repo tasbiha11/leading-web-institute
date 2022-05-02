@@ -3,13 +3,11 @@
 * {
     margin: 0px;
     padding: 0px;
+
 }
 
 body {
-
     font-family: 'PT Sans', sans-serif;
-    background-color: #F3F1FF;
-
 }
 
 .header-image-div {
@@ -20,13 +18,13 @@ body {
 
 .header-image-div img {
     width: 100%;
-    height: 300px;
-    margin: 0px;
+    height: 200px;
     padding: 0px;
 }
 
+
 .menu li a {
-    font-size: large;
+
     color: white;
     text-decoration: none;
     text-align: center;
@@ -34,13 +32,11 @@ body {
 }
 
 .menu li {
-
     list-style: none;
-    width: 208px;
+    width: 210px;
     height: 40px;
     background-color: rgb(30, 17, 73);
     float: left;
-    margin: 1px;
     line-height: 40px;
 
 }
@@ -53,7 +49,7 @@ body {
 
 .menu {
     height: 40px;
-    background-color: rgb(221, 217, 226);
+    background-color: rgb(30, 17, 73);
 
 
 }
@@ -66,8 +62,11 @@ body {
     display: block;
 }
 
+
 .content {
+    margin-left: 30px;
     display: flex;
+    align-items: center;
 }
 
 .container {
@@ -79,21 +78,21 @@ body {
     font-weight: 500;
     font-size: 24px;
     color: rgb(30, 17, 73);
-    padding-bottom: 20px;
-}
-
-
-.skills {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-
-
+    padding-bottom: 5px;
 }
 
 .skill {
     display: flex;
     align-items: center;
+    width: 600px;
+}
 
+.description {
+    margin-left: 15px;
+}
+
+.description p {
+    text-align: justify;
 }
 
 .skill img {
@@ -108,12 +107,16 @@ body {
 
 .enroll {
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 300px;
 }
 
 .enroll a {
     color: white;
     text-decoration: none;
+}
+
+.batch {
+    margin-top: 80px;
 }
 
 .enroll-button {
@@ -132,8 +135,13 @@ body {
     background-color: green;
 }
 
+.date {
+    padding-left: 15px;
+    color: green;
+}
+
 hr {
-    border: 1px solid rgb(30, 17, 73);
+    border: 2px solid rgb(30, 17, 73);
 }
 
 footer {
@@ -152,38 +160,87 @@ td {
 
 
 .steps {
+    margin: 20px;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.step {
+    height: 350px;
+    width: 350px;
+    box-shadow: 15px 15px 5px rgba(30, 17, 73, 0.358);
+
+    margin: 5px;
+}
+
+.article {}
+
+.article img {
+    width: 350px;
+    height: 150px;
+
+}
+
+.read-now {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 47px;
+    color: white;
+    width: 350px;
+    height: 50px;
+    background-color: rgb(30, 17, 73);
+}
+
+.read-now a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+.join {
+    width: 400px;
+    text-align: justify;
+}
+
+.event-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-right: 100px;
+    margin-left: 100px; */
+
+    padding: 20px;
+    border: 2px solid blue;
+}
+
+.event-content table {
     margin-top: 25px;
 }
 
-.step1 {
-    width: 410px;
-    height: 300px;
-    border: 2px solid rgb(30, 17, 73);
-    margin: 5px;
+.btn {
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(30, 17, 73);
+    color: white;
 }
 
-.step2 {
-    width: 410px;
-    height: 300px;
-    border: 2px solid rgb(30, 17, 73);
-    margin: 5px;
-}
-
-.step3 {
-    width: 410px;
-    height: 300px;
-    border: 2px solid rgb(30, 17, 73);
-    margin: 5px;
-}
 
 .internship {
     margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.writings {
+    width: 900px;
     text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
-
+    margin: 5px;
 }
 
 .internship h1 {
@@ -193,7 +250,7 @@ td {
 
 /* courses style */
 .second-section {
-    background-color: rgba(54, 16, 84, 0.128);
+    /* background-color: rgba(54, 16, 84, 0.128); */
     border-radius: 55px;
 }
 
