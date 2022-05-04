@@ -87,6 +87,11 @@ body {
     width: 600px;
 }
 
+.description:hover {
+    background-color: rgb(30, 17, 73);
+    color: white;
+}
+
 .description {
     margin-left: 15px;
 }
@@ -174,8 +179,6 @@ td {
     margin: 5px;
 }
 
-.article {}
-
 .article img {
     width: 350px;
     height: 150px;
@@ -208,11 +211,9 @@ td {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* margin-right: 100px;
-    margin-left: 100px; */
+
 
     padding: 20px;
-    border: 2px solid blue;
 }
 
 .event-content table {
@@ -250,7 +251,6 @@ td {
 
 /* courses style */
 .second-section {
-    /* background-color: rgba(54, 16, 84, 0.128); */
     border-radius: 55px;
 }
 
@@ -291,22 +291,22 @@ td {
     color: rgb(20, 212, 13);
 }
 
+.last-section {
+    background-color: rgb(30, 17, 73);
+}
+
 .last {
     margin-top: 100px;
-    background-color: rgb(30, 17, 73);
+
     height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 
 .social {
     color: white;
-    display: flex;
-}
-
-.fb {
-    margin-left: 160px;
-    margin-right: 160px;
-    margin-top: 80px;
 
 }
 
@@ -325,21 +325,10 @@ td {
     color: white;
 }
 
-.inst {
-    margin-left: 160px;
-    margin-right: 160px;
-    margin-top: 80px;
-
-}
-
-.twi {
-    margin-left: 160px;
-    margin-right: 160px;
-    margin-top: 80px;
-}
-
-.footer-section {
-    margin-top: 60px;
+.address {
     color: white;
-    text-align: center;
+}
+
+.foot-note {
+    color: white;
 }
