@@ -87,7 +87,7 @@ body {
     width: 600px;
 }
 
-.description:hover {
+.description p:hover {
     background-color: rgb(30, 17, 73);
     color: white;
 }
@@ -211,13 +211,33 @@ td {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
-
     padding: 20px;
 }
 
+.event {
+    background-color: rgba(30, 17, 73);
+    color: white;
+
+}
+
+.skill-titleJ {
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.section-titleJ {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
 .event-content table {
-    margin-top: 25px;
+    color: black;
 }
 
 .btn {
@@ -226,8 +246,8 @@ td {
     width: 80px;
     height: 30px;
     border-radius: 10px;
-    background-color: rgb(30, 17, 73);
-    color: white;
+    /* background-color: rgba(30, 17, 73, 0.226); */
+    color: black;
 }
 
 
@@ -242,6 +262,16 @@ td {
     width: 900px;
     text-align: center;
     margin: 5px;
+    font-size: larger;
+
+    /* background-color: rgb(30, 17, 73);
+    color: white; */
+}
+
+.internship:hover {
+    background-color: rgb(30, 17, 73);
+    color: white;
+
 }
 
 .internship h1 {
@@ -261,7 +291,6 @@ td {
     margin-top: 40px;
     margin-bottom: 20px;
     font-weight: bold;
-
 
 }
 
