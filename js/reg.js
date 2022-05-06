@@ -39,7 +39,14 @@ function formValidation() {
     else {
         document.getElementById("error-l").innerHTML = "";
     }
-
+    // //Email
+    if (!email.match(emailPattern)) {
+        document.getElementById("error-e").innerHTML = "LU email required";
+        return false;
+    }
+    else {
+        document.getElementById("error-e").innerHTML = "";
+    }
     // //mobile
     if (!mobile.match(mobilePattern)) {
         document.getElementById("error-m").innerHTML = "**Only BD phone number is allowed!!";
@@ -68,12 +75,6 @@ function formValidation() {
         document.getElementById("error-cp").innerHTML = "";
     }
 
-    // //Email
-    if (!email.match(emailPattern)) {
-        document.getElementById("error-e").innerHTML = "LU email required";
-        return false;
-    }
-    else {
-        document.getElementById("error-e").innerHTML = "";
-    }
+
+
 }
