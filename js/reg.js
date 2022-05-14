@@ -26,7 +26,7 @@ function formValidation() {
         document.getElementById("error-f").innerHTML = "";
     }
 
-    // //Last Name
+    //Last Name
     if (!lname.match(namePattern)) {
         document.getElementById("error-l").innerHTML = "Enter Valid Name";
         return false;
@@ -39,7 +39,7 @@ function formValidation() {
     else {
         document.getElementById("error-l").innerHTML = "";
     }
-    // //Email
+    //Email
     if (!email.match(emailPattern)) {
         document.getElementById("error-e").innerHTML = "LU email required";
         return false;
@@ -47,7 +47,7 @@ function formValidation() {
     else {
         document.getElementById("error-e").innerHTML = "";
     }
-    // //mobile
+    //mobile
     if (!mobile.match(mobilePattern)) {
         document.getElementById("error-m").innerHTML = "**Only BD phone number is allowed!!";
         return false;
@@ -57,7 +57,7 @@ function formValidation() {
         document.getElementById("error-m").innerHTML = "";
     }
 
-    // //password
+    //password
     if (!pass.match(passPattern)) {
         document.getElementById("error-p").innerHTML = "Password not strong enough";
         return false;
@@ -74,7 +74,5 @@ function formValidation() {
     else {
         document.getElementById("error-cp").innerHTML = "";
     }
-
-
 
 }
